@@ -1,0 +1,10 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+    id("com.android.application") version "8.13.2" apply false
+    id("com.android.library") version "8.13.2" apply false
+
+    // Pon AQUÍ la versión Kotlin REAL que tengas en tu proyecto:
+    // Si no sabes, dime qué versión te sale en Gradle/Build Output o en settings.
+    id("org.jetbrains.kotlin.android") version "2.0.20" apply false
+    id("org.jetbrains.kotlin.plugin.compose") version "2.0.20" apply false
+}
